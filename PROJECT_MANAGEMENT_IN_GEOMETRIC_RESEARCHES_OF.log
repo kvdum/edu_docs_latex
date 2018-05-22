@@ -1,0 +1,685 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.24)  22 MAY 2018 18:49
+entering extended mode
+**./PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.tex
+(PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.tex
+LaTeX2e <2017-04-15>
+Babel <3.12> and hyphenation patterns for 76 language(s) loaded.
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) ("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ntgclass\a4.sty"
+Package: a4 2004/04/15 v1.2g A4 based page layout
+) (jgg.sty
+Style option `jgg.sty' (0.02, 25-MAR-1997)
+\c@JGGcurrarticle=\count87
+\c@JGGcurrstartpage=\count88
+\c@JGGcurrstoppage=\count89
+JGG-style loaded (ISGG, 03.1997))
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
+ics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
+x.def"
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
+sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
+ty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen105
+))
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen106
+)
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks17
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks18
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\makecell\makecell.
+sty"
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen114
+\extrarowheight=\dimen115
+\NC@list=\toks21
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+\rotheadsize=\dimen116
+\c@nlinenum=\count102
+\TeXr@lab=\toks22
+)
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.
+sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip48
+\multirow@cntb=\count103
+\multirow@dima=\skip49
+\bigstrutjot=\dimen117
+) ("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.aux)
+\openout1 = `PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count104
+\scratchdimen=\dimen118
+\scratchbox=\box28
+\nofMPsegments=\count105
+\nofMParguments=\count106
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count107
+\MPscratchDim=\dimen119
+\MPnumerator=\count108
+\makeMPintoPDFobject=\count109
+\everyMPtoPDFconversion=\toks24
+)
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
+base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
+y"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
+ekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
+ys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
+s.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
+x.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
+mds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \vbox (2.97083pt too high) has occurred while \output is active []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
+
+("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+
+[1{C:/Users/ichet/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
+Overfull \hbox (372.16304pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/12 2 \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spod
+yniuk, S. Ljaskovska, Y. Martyn: Project management in geometric researches of 
+microclimate parameters space of industrial premises 
+ []
+
+[2]
+Package epstopdf Info: Source file: <images/image2.eps>
+(epstopdf)                    date: 2018-05-20 19:09:57
+(epstopdf)                    size: 519292 bytes
+(epstopdf)             Output file: <images/image2-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-20 19:10:56
+(epstopdf)                    size: 21212 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/image2-eps-converted
+-to.pdf images/image2.eps>
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+<images/image2-eps-converted-to.pdf, id=14, pagebox=cropbox, 211.79124pt x 128.
+48pt>
+File: images/image2-eps-converted-to.pdf Graphic file (type pdf)
+<use images/image2-eps-converted-to.pdf>
+Package pdftex.def Info: images/image2-eps-converted-to.pdf  used on input line
+ 56. on input line 56.
+Package pdftex.def Info: Requested size: 284.52756pt x 172.61122pt on input lin
+e 56.
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no … in font cmr12!
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no ƒ in font cmr12!
+
+Overfull \hbox (372.16304pt too wide) has occurred while \output is active
+ \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spodyniuk, S. Ljaskov
+ska, Y. Martyn: Project management in geometric researches of microclimate para
+meters space of industrial premises \OT1/cmr/m/n/12 3
+ []
+
+[3 <./images/image2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/image3.eps>
+(epstopdf)                    date: 2018-05-20 19:33:25
+(epstopdf)                    size: 937438 bytes
+(epstopdf)             Output file: <images/image3-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-20 19:45:01
+(epstopdf)                    size: 61099 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/image3-eps-converted
+-to.pdf images/image3.eps>
+(epstopdf)             \includegraphics on input line 72.
+Package epstopdf Info: Output file is already uptodate.
+<images/image3-eps-converted-to.pdf, id=21, pagebox=cropbox, 209.78375pt x 235.
+88126pt>
+File: images/image3-eps-converted-to.pdf Graphic file (type pdf)
+<use images/image3-eps-converted-to.pdf>
+Package pdftex.def Info: images/image3-eps-converted-to.pdf  used on input line
+ 72. on input line 72.
+Package pdftex.def Info: Requested size: 227.62204pt x 255.93932pt on input lin
+e 72.
+Package epstopdf Info: Source file: <images/image4.eps>
+(epstopdf)                    date: 2018-05-20 19:33:50
+(epstopdf)                    size: 764020 bytes
+(epstopdf)             Output file: <images/image4-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-20 19:51:30
+(epstopdf)                    size: 57368 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/image4-eps-converted
+-to.pdf images/image4.eps>
+(epstopdf)             \includegraphics on input line 72.
+Package epstopdf Info: Output file is already uptodate.
+<images/image4-eps-converted-to.pdf, id=22, pagebox=cropbox, 187.70125pt x 215.
+80624pt>
+File: images/image4-eps-converted-to.pdf Graphic file (type pdf)
+<use images/image4-eps-converted-to.pdf>
+Package pdftex.def Info: images/image4-eps-converted-to.pdf  used on input line
+ 72. on input line 72.
+Package pdftex.def Info: Requested size: 227.62204pt x 261.72237pt on input lin
+e 72.
+
+Underfull \vbox (badness 5847) has occurred while \output is active []
+
+
+Overfull \hbox (372.16304pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/12 4 \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spod
+yniuk, S. Ljaskovska, Y. Martyn: Project management in geometric researches of 
+microclimate parameters space of industrial premises 
+ []
+
+[4 <./images/image3-eps-converted-to.pdf> <./images/image4-eps-converted-to.pdf
+>]
+Package epstopdf Info: Source file: <images/image5.eps>
+(epstopdf)                    date: 2018-05-20 20:27:13
+(epstopdf)                    size: 677247 bytes
+(epstopdf)             Output file: <images/image5-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-20 20:31:40
+(epstopdf)                    size: 26921 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/image5-eps-converted
+-to.pdf images/image5.eps>
+(epstopdf)             \includegraphics on input line 97.
+Package epstopdf Info: Output file is already uptodate.
+<images/image5-eps-converted-to.pdf, id=33, pagebox=cropbox, 212.795pt x 167.62
+625pt>
+File: images/image5-eps-converted-to.pdf Graphic file (type pdf)
+<use images/image5-eps-converted-to.pdf>
+Package pdftex.def Info: images/image5-eps-converted-to.pdf  used on input line
+ 97. on input line 97.
+Package pdftex.def Info: Requested size: 284.52756pt x 224.14479pt on input lin
+e 97.
+Missing character: There is no â in font cmr12!
+Missing character: There is no ˆ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no ² in font cmr12!
+
+Overfull \hbox (372.16304pt too wide) has occurred while \output is active
+ \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spodyniuk, S. Ljaskov
+ska, Y. Martyn: Project management in geometric researches of microclimate para
+meters space of industrial premises \OT1/cmr/m/n/12 5
+ []
+
+[5 <./images/image5-eps-converted-to.pdf>]
+Overfull \hbox (2.4031pt too wide) in paragraph at lines 107--108
+[]\OT1/cmr/m/n/12 with the work of lo-cal ex-haust ven-ti-la-tion for the same 
+isotherm in-ter-val of $17[][] [] [] 19[][] []$
+ []
+
+
+Overfull \hbox (5.66696pt too wide) in paragraph at lines 128--129
+[]\OT1/cmr/m/n/12 with the work of lo-cal ex-haust ven-ti-la-tion for the same 
+isotherm in-ter-val of $0[][] [] [] 16\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 8[][] [
+]$
+ []
+
+
+Overfull \hbox (4.0071pt too wide) in paragraph at lines 133--134
+\OT1/cmr/m/n/12 In the pro-cess of sci-en-tific re-search of the ther-mal field
+ us-ing ex-per-i-men-tally ob-tained isotherms
+ []
+
+Package epstopdf Info: Source file: <images/image8.eps>
+(epstopdf)                    date: 2018-05-20 21:42:19
+(epstopdf)                    size: 376906 bytes
+(epstopdf)             Output file: <images/image8-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-20 21:45:49
+(epstopdf)                    size: 18954 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/image8-eps-converted
+-to.pdf images/image8.eps>
+(epstopdf)             \includegraphics on input line 139.
+Package epstopdf Info: Output file is already uptodate.
+<images/image8-eps-converted-to.pdf, id=41, pagebox=cropbox, 212.795pt x 92.345
+pt>
+File: images/image8-eps-converted-to.pdf Graphic file (type pdf)
+<use images/image8-eps-converted-to.pdf>
+Package pdftex.def Info: images/image8-eps-converted-to.pdf  used on input line
+ 139. on input line 139.
+Package pdftex.def Info: Requested size: 284.52756pt x 123.48096pt on input lin
+e 139.
+Package epstopdf Info: Source file: <images/image9.eps>
+(epstopdf)                    date: 2018-05-20 21:42:18
+(epstopdf)                    size: 657537 bytes
+(epstopdf)             Output file: <images/image9-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-20 21:50:47
+(epstopdf)                    size: 25217 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/image9-eps-converted
+-to.pdf images/image9.eps>
+(epstopdf)             \includegraphics on input line 145.
+Package epstopdf Info: Output file is already uptodate.
+<images/image9-eps-converted-to.pdf, id=42, pagebox=cropbox, 212.795pt x 162.60
+75pt>
+File: images/image9-eps-converted-to.pdf Graphic file (type pdf)
+<use images/image9-eps-converted-to.pdf>
+Package pdftex.def Info: images/image9-eps-converted-to.pdf  used on input line
+ 145. on input line 145.
+Package pdftex.def Info: Requested size: 284.52756pt x 217.4339pt on input line
+ 145.
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no … in font cmr12!
+Package epstopdf Info: Source file: <images/image10.eps>
+(epstopdf)                    date: 2018-05-20 21:42:17
+(epstopdf)                    size: 704600 bytes
+(epstopdf)             Output file: <images/image10-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-20 22:25:48
+(epstopdf)                    size: 32827 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/image10-eps-converte
+d-to.pdf images/image10.eps>
+(epstopdf)             \includegraphics on input line 157.
+Package epstopdf Info: Output file is already uptodate.
+<images/image10-eps-converted-to.pdf, id=43, pagebox=cropbox, 208.78pt x 177.66
+376pt>
+File: images/image10-eps-converted-to.pdf Graphic file (type pdf)
+<use images/image10-eps-converted-to.pdf>
+Package pdftex.def Info: images/image10-eps-converted-to.pdf  used on input lin
+e 157. on input line 157.
+Package pdftex.def Info: Requested size: 284.52756pt x 242.15355pt on input lin
+e 157.
+
+Overfull \hbox (372.16304pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/12 6 \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spod
+yniuk, S. Ljaskovska, Y. Martyn: Project management in geometric researches of 
+microclimate parameters space of industrial premises 
+ []
+
+[6]
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no … in font cmr12!
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no … in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no ° in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no ° in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no ° in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no ° in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no ° in font cmr12!
+
+Overfull \hbox (372.16304pt too wide) has occurred while \output is active
+ \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spodyniuk, S. Ljaskov
+ska, Y. Martyn: Project management in geometric researches of microclimate para
+meters space of industrial premises \OT1/cmr/m/n/12 7
+ []
+
+[7 <./images/image8-eps-converted-to.pdf> <./images/image9-eps-converted-to.pdf
+>]
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no ž in font cmr12!
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no … in font cmr12!
+Package epstopdf Info: Source file: <images/image11.eps>
+(epstopdf)                    date: 2018-05-20 21:42:16
+(epstopdf)                    size: 659853 bytes
+(epstopdf)             Output file: <images/image11-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-20 22:25:55
+(epstopdf)                    size: 25225 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/image11-eps-converte
+d-to.pdf images/image11.eps>
+(epstopdf)             \includegraphics on input line 172.
+Package epstopdf Info: Output file is already uptodate.
+<images/image11-eps-converted-to.pdf, id=59, pagebox=cropbox, 212.795pt x 163.6
+1125pt>
+File: images/image11-eps-converted-to.pdf Graphic file (type pdf)
+<use images/image11-eps-converted-to.pdf>
+Package pdftex.def Info: images/image11-eps-converted-to.pdf  used on input lin
+e 172. on input line 172.
+Package pdftex.def Info: Requested size: 284.52756pt x 218.77606pt on input lin
+e 172.
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no ƒ in font cmr12!
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no ƒ in font cmr12!
+Package epstopdf Info: Source file: <images/image12.eps>
+(epstopdf)                    date: 2018-05-20 21:42:14
+(epstopdf)                    size: 981793 bytes
+(epstopdf)             Output file: <images/image12-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-20 22:26:03
+(epstopdf)                    size: 34856 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/image12-eps-converte
+d-to.pdf images/image12.eps>
+(epstopdf)             \includegraphics on input line 179.
+Package epstopdf Info: Output file is already uptodate.
+<images/image12-eps-converted-to.pdf, id=60, pagebox=cropbox, 575.14874pt x 474
+.77374pt>
+File: images/image12-eps-converted-to.pdf Graphic file (type pdf)
+<use images/image12-eps-converted-to.pdf>
+Package pdftex.def Info: images/image12-eps-converted-to.pdf  used on input lin
+e 179. on input line 179.
+Package pdftex.def Info: Requested size: 284.52756pt x 234.8797pt on input line
+ 179.
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no ƒ in font cmr12!
+
+Overfull \hbox (372.16304pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/12 8 \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spod
+yniuk, S. Ljaskovska, Y. Martyn: Project management in geometric researches of 
+microclimate parameters space of industrial premises 
+ []
+
+[8 <./images/image10-eps-converted-to.pdf> <./images/image11-eps-converted-to.p
+df>]
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no … in font cmr12!
+Package epstopdf Info: Source file: <images/image13.eps>
+(epstopdf)                    date: 2018-05-20 22:21:46
+(epstopdf)                    size: 890791 bytes
+(epstopdf)             Output file: <images/image13-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-20 22:26:10
+(epstopdf)                    size: 27316 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/image13-eps-converte
+d-to.pdf images/image13.eps>
+(epstopdf)             \includegraphics on input line 193.
+Package epstopdf Info: Output file is already uptodate.
+<images/image13-eps-converted-to.pdf, id=70, pagebox=cropbox, 209.78375pt x 224
+.84pt>
+File: images/image13-eps-converted-to.pdf Graphic file (type pdf)
+<use images/image13-eps-converted-to.pdf>
+Package pdftex.def Info: images/image13-eps-converted-to.pdf  used on input lin
+e 193. on input line 193.
+Package pdftex.def Info: Requested size: 284.52756pt x 304.9481pt on input line
+ 193.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (372.16304pt too wide) has occurred while \output is active
+ \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spodyniuk, S. Ljaskov
+ska, Y. Martyn: Project management in geometric researches of microclimate para
+meters space of industrial premises \OT1/cmr/m/n/12 9
+ []
+
+[9 <./images/image12-eps-converted-to.pdf>]
+Underfull \hbox (badness 1917) in paragraph at lines 208--209
+[]\OT1/cmr/m/n/12 Yurkevich Y., Spo-dyniuk N. Energy-saving in-frared heat-ing 
+sys-tems in in-dus-
+ []
+
+
+Overfull \hbox (378.03798pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/12 10 \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spo
+dyniuk, S. Ljaskovska, Y. Martyn: Project management in geometric researches of
+ microclimate parameters space of industrial premises 
+ []
+
+[10 <./images/image13-eps-converted-to.pdf>]
+Missing character: There is no Â in font cmr12!
+Missing character: There is no « in font cmr12!
+Missing character: There is no Â in font cmr12!
+Missing character: There is no » in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no µ in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no µ in font cmr12!
+Missing character: There is no Â in font cmr12!
+Missing character: There is no « in font cmr12!
+Missing character: There is no Â in font cmr12!
+Missing character: There is no » in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no µ in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no µ in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no µ in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no µ in font cmr12!
+
+Overfull \hbox (378.03798pt too wide) has occurred while \output is active
+ \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spodyniuk, S. Ljaskov
+ska, Y. Martyn: Project management in geometric researches of microclimate para
+meters space of industrial premises \OT1/cmr/m/n/12 11
+ []
+
+[11]
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no µ in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no ° in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no µ in font cmr12!
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no µ in font cmr12!
+
+Underfull \hbox (badness 3746) in paragraph at lines 240--241
+[]\OT1/cmr/m/n/12 Gumen O. M., Ljaskovska S. Y., Mar-tyn Y. V. Vizualne prohra-
+mu-van-nya
+ []
+
+Missing character: There is no Ð in font cmr12!
+Missing character: There is no µ in font cmr12!
+
+Overfull \hbox (378.03798pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/12 12 \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spo
+dyniuk, S. Ljaskovska, Y. Martyn: Project management in geometric researches of
+ microclimate parameters space of industrial premises 
+ []
+
+[12] (PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.aux) ) 
+Here is how much of TeX's memory you used:
+ 2836 strings out of 493314
+ 40231 string characters out of 3129774
+ 99210 words of memory out of 3000000
+ 6322 multiletter control sequences out of 15000+200000
+ 11053 words of font info for 41 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,11n,25p,1349b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/ichet/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/User
+s/ichet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12
+.pfb><C:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb><C:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ichet/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ichet/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/iche
+t/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C
+:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmti10.pfb><C:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmti12.pfb>
+Output written on PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.pdf (12 pages, 
+471908 bytes).
+PDF statistics:
+ 121 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+

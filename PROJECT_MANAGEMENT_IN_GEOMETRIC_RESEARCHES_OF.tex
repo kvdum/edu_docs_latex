@@ -1,0 +1,249 @@
+\documentclass[12pt,twoside]{article}
+\usepackage{a4,jgg,graphicx}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{makecell}	% in table for cells: >{$}c<{$}
+\usepackage{multirow}	% multirow cell tables.
+\usepackage{cite}	% for \cite{bi01,bi02,bi03,bi04,bi05} => Refs [1-5].
+
+\newcommand{\FigRef}[2][]{(Fig.~\ref{#2}\textit{#1})}
+\newcommand{\TblRef}[1]{Table~\ref{#1}}
+\newcommand{\degC}{{}^{\circ}\,\text{C}} % grad C.
+
+%\tabrowsep=18pt
+\renewcommand{\arraystretch}{1.5}	% for table add spacing row.
+
+\begin{document}
+	\begin{JGGarticle}
+		{Project management in geometric researches of microclimate parameters space of industrial premises}
+		{O.\ Gumen, V.\ Zhelykh, S.\ Shapoval, N.\ Spodyniuk, S.\ Ljaskovska, Y.\ Martyn: Project management in geometric researches of microclimate parameters space of industrial premises}
+		{Olena Gumen (*), Vasyl Zhelykh (**), Stepan Shapoval (**), Nadiia Spodyniuk (**),}
+		{\centerline{Solomija Ljaskovska (***), Yevgen Martyn (****)}}
+		{\JGGaddress{(*) National Technical University of Ukraine ``Igor Sikorsky Kyiv Polytechnic Institute'',\\
+				Department of Descriptive Geometry, Engineering and Computer Graphics\\
+				Peremohy pr., 37, 03056, Kyiv, Ukraine,\\e-mail: gumens\at{}ukr.net}
+		\JGGaddress{(**) Lviv Polytechnic National University, Department of Heat and Gas Supply and Ventilation\\
+			St.\ Bandery, 12, 79013, Lviv-13, Ukraine}
+		\JGGaddress{(***) Lviv Polytechnic National University, Department of Design and Operation of Machine\\
+			St.\ Bandery, 12, 79013, Lviv-13, Ukraine}
+		\JGGaddress{(****) Lviv State University of Life Safety, Department of Project Management,\\
+			Information Technologies and Telecommunications\\
+			Kleparivska, 35, 79007, Lviv-07, Ukraine}}
+		
+		\begin{JGGabstract}
+			Researches on the organization and implementation of the project management of selection processes and the development of adequate models of interaction of many parameters of the microclimate of the technological process of raising the poultry meat breeds in industrial premises have been carried out. Actuality of the researches has been confirmed, the analysis and a choice of interaction of parameters research methods are proved. It is shown that the use of physical modeling with the involvement of the corresponding experimental equipment and the use of the experimental results obtained for geometric modeling on the basis of applied multidimensional geometry are effective. The proposed method of research can be practically adapted for the processing of the results of studies on the microclimate parameters of agro-industrial objects of various intended uses.
+			\\[1mm]{\em Key Words:} industrial premises, microclimate, parameters, physical and geometric modeling
+		\end{JGGabstract}
+		
+		\section{Introduction}
+			Ensuring the effective implementation of technological processes of production in the industrial and agrarian sectors is extremely important at the present stage of development of the European economy, which is characterized by rational and economical use of energy resources while ensuring the proper quality of products. With regard to the food production, in particular, poultry, an important additional condition is the observance of the comfortable microclimate in the zone of its cultivation. For this, there are industrial buildings that contain poultry. The main elements of poultry keeping are such components of comfort as the air temperature and its purity. Heaters and ventilation systems are used to provide regulatory requirements. Their effective work is possible when rational modes of operation of the corresponding technological equipment are used.
+			
+			The development of appropriate approaches to the creation of industrial heating and ventilation systems for industrial buildings with the massive holding of poultry, the choice of means and the study of the parameters of the process constitute one of the promising directions of development of the agricultural sector for the holding of meat breed poultry.
+			
+			The analysis of recent researches and publications on the scientific direction concerning the study of microclimate of production facilities for poultry breeding indicates the direct impact of the technological system of microclimate maintenance on the state of the poultry. The parameters of the microclimate, namely air temperature, air movement are investigated in scientific works \cite{bi:Gumen-Martyn.2017,bi:Yurkevich-Spodyniuk.2015,bi:Petras-Kalus.2000,bi:Spodyniuk-Zhelykh.2010,bi:Gumen-Ljaskovska.2017,bi:Spodyniuk-Zhelykh.2008,bi:Kimball.2005,bi:Shcherbovskykh-Shepitchak.2016,bi:Shepitchak-Zhelykh.2015,bi:Zhelykh-Shepitchak.2015,bi:Zhelykh-Shepitchak.2016,bi:Shepitchak-Spodyniuk.2016,bi:Zhelykh-Kapalo.2008} separately. Thus, in \cite{bi:Spodyniuk-Zhelykh.2010} the process of utilization of heat by an exhaust umbrella is investigated. Scientific investigations \cite{bi:Yurkevich-Spodyniuk.2015,bi:Gumen-Ljaskovska.2017} present the results of the study in the form of isotherms of the temperature field in the premises, taking into account the work of the infrared heating system and local ventilation system.
+			
+			Scientific research, however, is scattered on a particular aspect of the study of the comfortable stay of the poultry in the poultry house; they do not contain a methodologically grounded scientific approach to the process of organizing and choosing the processing means of the obtained experimental results, taking into account the project approach \cite{bi:Khmel-Ljaskovska.2016} to the organization and implementation of the technological process of poultry holding. A free scientific niche is the question of a reasonable choice based on the principles of project management of selection and development of tools for processing graphical experimental data with the involvement of the apparatus of geometric modeling~\cite{bi:Gumen.2001,bi:Gumen-Martyn.2016,bi:Gumen-Shyyko.2011,bi:Gumen-Martyn.2012,bi:Gumen.2012,bi:Gumen-Martyn.1998,bi:Ivanov.2007}.
+			
+			The selection of previously unsettled parts of the general problem points to a limited number of scientific publications in its separate direction concerning the provision of the comfortable microclimate in industrial premises with the massive holding of poultry. In addition, the recent studies and publications have been analyzed. They testify to the absence of a unified methodological approach to the organization and analysis of experimental studies, taking into account the project approach. Using the tools of project-oriented management provides an opportunity to highlight the main components of the study and choose the only method of preparation and conducting theoretical analysis of the experimental results obtained.
+			
+			The aim of the study is to find out on the basis of the project approach the main components of the project on the research of the microclimate of industrial premises, to substantiate, develop and apply means of geometric analysis of the graphic dependencies of its parameters.
+		\section{Experimental studies}
+			In many countries, a project to grow agricultural products under hothouse conditions is successfully implemented and improved. This applies to both vegetable and livestock breeding. In particular, projects for the implementation of appropriate technological processes are being carried out for the breeding of meat breed poultry.
+			
+			In the process of the project initiating, fundamental decisions are taken on the creation and arrangement of an industrial building (poultry house). Project planning defines the purpose of the project and the peculiarities of resource support for the technological process of poultry breeding. At this stage of the project management, it is important to develop appropriate measures and to take measures to ensure proper conditions for holding of poultry, which is one of the important moments in the implementation of the technological process of poultry breeding. It is clear that the provision of proper conditions for holding of poultry requires that priority research be carried out on the impact of microclimate parameters on poultry holding, in the first place providing recommendations for ensuring rational values of microclimate parameters in accordance with regulatory documents. Such studies, again, require compliance with a certain sequence in their implementation, that is, the project approach. Therefore, from the diversity of the parameters of ensuring the proper conditions for holding of poultry, we distinguish the main ones: indoor air temperature and air movement. To conduct the research laboratory equipment should be universal and ensure the implementation in full.
+			
+			The process realization of research has been carried out on the example of determining the amount of heat utilized from the premises, the work of local tidal and exhaust ventilation. In accordance with the research objectives, a universal laboratory installation that can serve as a tool for conducting research is installed~\FigRef{fig:labinst}.
+			\begin{figure}[!hbt]
+				\psone{images/image2.eps}{10cm}
+				\caption{Scheme of the laboratory installation}
+				\begin{center}
+					1 --- room; 2 --- infrared heater; 3 --- exhaust outlet; 4 --- air duct; 5 --- ventilator;\\6 --- thermometer; 7 --- coordinate grid; 8 --- floor
+				\end{center}
+					%\hfill\parbox{10cm}{\centering\noindent
+					%1 --- room; 2 --- infrared heater; 3 --- exhaust outlet; 4 --- air duct; 5 --– ventilator; 6 –-- thermometer; 7 --- coordinate grid; 8 --– floor}\hfill
+				\label{fig:labinst}
+			\end{figure}
+			The laboratory installation, located in the room~$1$, contains an infrared heater~$2$ over which there is an exhaust outlet~$3$ connected by an air duct~$4$ with a ventilator~$5$. To measure the temperature at an arbitrary point of space~$1$, a thermometer~$6$ with a coordinate grid~$7$ installed on the floor~$8$ is provided. In the scheme~\FigRef{fig:labinst} there are no commuting devices, conventionally not depicted, needed for the formation of the given equipment the scheme of intended use.
+			When studying the work of local exhaust ventilation the temperature fields in the room space~$1$ are compared with the ventilator~$5$ switched off and on. The study of the temperature fields in the room 1 in both cases was carried out by measuring the temperature of the air with the thermometer~$6$ using the coordinate meter~$7$. For an arbitrary section~$1\text{-}1$~\FigRef{fig:labinst}, under the exhaust outlet, a cutting plane parallel to one of the planes~$xz$ of the coordinate meter~$7$ was carried out. The results of measurements were given by the isotherms in the cutting plane with the measurements of the height of the room h and the coordinate х of the room~$1$ with a constant value of the coordinate у, that is the width of the room~\FigRef[~a,~b]{fig:isothrm_1-1}.
+			
+			A comparative analysis of graphic dependencies indicates the significant effect of local exhaust ventilation on the character of the temperature field in the room.
+			
+			In the absence of local exhaust ventilation~\FigRef[~a]{fig:isothrm_1-1} there is a flat character of the isotherm location at a height of~$h \geq 0.6$~m. At this height, the isotherms are slightly constricted and extended upwards when the fan is turned on. In both cases, each of the isotherms has a minimum. In addition, when the fan is on, there is an orderly movement of air up to the exhaust outlet~$3$, in the upper and middle part of the section~1-1, and in the vicinity of the exhaust conduit isotherms are more damp~\FigRef[~b]{fig:isothrm_1-1}.
+			\begin{figure}[!hbt]
+				\pstwo{images/image3.eps}{8cm}{images/image4.eps}{8cm}
+				\caption{Isotherms of the cutting plane 1-1}
+				\label{fig:isothrm_1-1}
+			\end{figure}
+		\section{Analysis of the results of experimental studies}
+			The comparative analysis of~\FigRef[~a]{fig:isothrm_1-1} and~\FigRef[~b]{fig:isothrm_1-1} makes it possible to analyze the insulation of isotherms, that is, the effect of local exhaust ventilation on the nature of their location in a cutting plane. It is convenient to characterize such a density as the greatest values of the excess of the isotherm height~$\Delta h$ at a certain interval~$\Delta x$; common to the isotherms is the interval~$\Delta x = 0.3 \dots 0.8$~m.
+			
+			The values of~$\Delta h$ for some of the isotherms constructed in cutting plane~1-1 are summarized in~\TblRef{tbl:dh}.
+			\begin{table}[!hbt]
+				\centering
+					\begin{tabular}{|c|c|>{$}c<{$}|>{$}c<{$}|>{$}c<{$}|>{$}c<{$}|>{$}c<{$}|}
+						\hline
+						\multicolumn{2}{|c|}{Isotherm} & 16.5 & 16.6 & 17 & 18 & 19\\
+						\hline
+						\multirow{2}{*}{$\Delta h$, m} & without a fan & 0.45 & 0.11 & 0.1 & 0.09 & 0.08\\
+						\cline{2-7}
+						& with a fan & >1.4 & 0.3 & 0.1 & 0.11 & 0.15\\
+						\hline
+					\end{tabular}
+				\caption{The value of the slope of some isotherms~$\Delta h$}
+				\label{tbl:dh}
+			\end{table}
+			
+			Graphic dependencies, constructed according to the data of~\TblRef{tbl:dh}, give an opportunity to determine the effectiveness of exhaust ventilation~\FigRef{fig:determ_effctv_vent}.
+			\begin{figure}[!hbt]
+				\psone{images/image5.eps}{10cm}
+				\caption{Determination of the field of effective influence of the work of local exhaust ventilation:}
+				\label{fig:determ_effctv_vent}
+			\end{figure}
+			From analysis of graphic dependencies~$\Delta h = f(t\,\degC)$ we have that the area of the effective influence of the work of the local exhaust ventilation starts at a higher altitude then~$h > 1.0$~m (isotherm of~$17\degC$).
+			
+			Almost each of the isotherms has a minimum. In the case of local exhaust ventilation, there is a slight change in the height~$h$ of the location of the minimum height value of each isotherm~\TblRef{tbl:min_height_isotherm}, in addition to the isotherm~$17\degC$, as well as their condensation in the upper part of the room.
+			Height interval~$\Delta h_b$ ∆hв of the location of isotherms in the upper part of the room:
+			\begin{itemize}
+				\item[-] without the work of local exhaust ventilation for isotherms of interval~$17\degC\dots19\degC$ value~$\Delta h_b = 0.42$~m;
+				\item[-] with the work of local exhaust ventilation for the same isotherm interval of~$17\degC\dots19\degC$ value~$\Delta h_b = 0.28$~m.
+			\end{itemize}
+			\begin{table}[!hbt]
+				\begin{center}
+					\begin{tabular}{|c|c|>{$}c<{$}|>{$}c<{$}|>{$}c<{$}|>{$}c<{$}|>{$}c<{$}|}
+						\hline
+						\multicolumn{2}{|c|}{Isotherm} & 16.5 & 16.6 & 17 & 18 & 19\\
+						\hline
+						\multirow{2}{*}{$\Delta h$, m} & without a fan & 0 & 0.51 & 0.83 & 1.18 & 1.025\\
+						\cline{2-7}
+						& with a fan & 0 & 0 & 1.08 & 1.19 & 1.3\\
+						\hline
+					\end{tabular}
+				\end{center}
+				\caption{Minimum height values of the isotherm location}
+				\label{tbl:min_height_isotherm}
+			\end{table}
+			
+			Height interval~$\Delta h_b$ of the location of isotherms in the lower part of the room:
+			\begin{itemize}
+				\item[-] without the work of local exhaust ventilation for isotherms of interval~$0\degC\dots16.7\degC$ value~$\Delta h_b = 0.68$~m;
+				\item[-] with the work of local exhaust ventilation for the same isotherm interval of~$0\degC\dots16.8\degC$ value~$\Delta h_b = 0.23$~m.
+			\end{itemize}
+			
+			Thus, there is the decrease in the height interval in the upper part of the room in relation to the lower part of the room without the work of local exhaust ventilation~$0.6$~times and the increase in the height interval in the upper part of the room in relation to the lower part of the room with the work of local exhaust ventilation~$1.2$~times.
+		\section{Processing results by geometric method}
+			In the process of scientific research of the thermal field using experimentally obtained isotherms \FigRef{fig:isothrm_1-1}, it becomes necessary to use those isotherms that are not on the graph. It is possible to construct the necessary isotherms, if we consider such lines as the result of intersection of the surface of the temperature field with the horizontal cutting plane with a given required temperature value.
+			
+			Let's show the sequence of construction of an isotherm at a temperature value, for example,~$18.5\degC$ in the case of local exhaust ventilation system work.
+			
+			We isolate two neighboring isotherms, in this case the isotherms are with temperature values~$18.0\degC$ and~$19.0\degC$~\FigRef{fig:t_isothrm}.
+			\begin{figure}[!hbt]
+				\psone{images/image8.eps}{10cm}
+				\caption{The choice of neighboring isotherms of the temperature field}
+				\label{fig:t_isothrm}
+			\end{figure}
+			We construct a complex drawing of the section of the temperature field with values of isotherms~$18.0\degC$ and~$19.0\degC$~\FigRef{fig:t_complex}.
+			\begin{figure}[!hbt]
+				\psone{images/image9.eps}{10cm}
+				\caption{A complex drawing of the section of the temperature field}
+				\label{fig:t_complex}
+			\end{figure}
+			Typically, the required lines of level of surface of the temperature field are constructed by passing the cutting plane~$18.5$ between the planes of level with traces~$18$~and~$19$~\FigRef{fig:t_complex}.
+			
+			Taking into account that the surface of the temperature field is smooth, the line of intersection of the temperature field with the cutting plane of level~$18.5$ is equidistant to the lines, isotherms, with traces~$18$~and~$19$ (in Figure \ref{fig:t_complex} it is indicated by a dashed line).
+			
+			The proposed complex drawing allows determining the temperature of the air at an arbitrary point on the surface of the thermal field.
+			
+			Let's construct projections of a point of the temperature field with the value of temperature, for example, $t = 18.7\degC$ at~$х = 0.3$~m~\FigRef{fig:t_constr_proj_point}.
+			\begin{figure}[!hbt]
+				\psone{images/image10.eps}{10cm}
+				\caption{Constructing projections of a point of the temperature field}
+				\label{fig:t_constr_proj_point}
+			\end{figure}
+			The construction is carried out in the following sequence:
+			\begin{enumerate}
+				\item First we conduct a trace of the cutting plane at~$18.7$ (in Figure~\ref{fig:t_constr_proj_point} it is indicated by a dotted-dashed line).
+				\item Then we conduct a projection link line at
+				$х = 0.3$~m perpendicular to the axis~$Oх$. At the intersection of both lines we obtain point~$Т_1$, which is a horizontal projection of the temperature value~$18.70\degC$ of surface of the temperature field.
+				\item Through the point~$Т_1$ we pass a section~$а_1$ of an arbitrary straight line а which intersects the traces of the cutting planes~$18.5$ and~$19.0$ at points~$1_1$ and~$2_1$~respectively.
+				\item Their projections~$12$ and~$22$ are found on isotherms~$18.5$ and~$19.0$, respectively. By connecting the points~$12$ and~$22$, we obtain the projection~$а_2$ of the section of an arbitrary line~$а$.
+				\item Point~$Т_2$ of the intersection of the projection lines and section~$а_2$ is the required point of the temperature field surface with the temperature value of~$18.7\degC$.
+			\end{enumerate}
+			The complex drawing in Figure~\ref{fig:t_complex} gives two projections of the temperature field in~$Охht^0$~space. According to such projections, a~$3$D model of the temperature field, for example, in the working range~$18 \dots 19\degC$ of temperature changes in the room can be constructed by means of graphic information technologies~\FigRef{fig:t_3D}.
+			\begin{figure}[!hbt]
+				\psone{images/image11.eps}{10cm}
+				\caption{3D model of the section of the temperature field}
+				\label{fig:t_3D}
+			\end{figure}
+			A visual computer model of temperature distribution in the room is also constructed when the coordinate у is changed~\FigRef{fig:t_along_3D}.
+			The researches of the air temperature at change of coordinate у value show constancy of the pattern of temperature distribution in cutting plane~1-1.
+			\begin{figure}[!hbt]
+				\psone{images/image12.eps}{10cm}
+				\caption{3D model of temperature distribution along the axis~$у$}
+				\label{fig:t_along_3D}
+			\end{figure}
+			Effective project implementation of the technological process of raising poultry in the direction of conducting comprehensive scientific research also involves identifying the features of the influence of tidal ventilation on the microclimate in the production premises.
+			
+			In the process of conducting research on the influence of tidal ventilation, the ventilator~$5$ of the laboratory installation provided air from the air channel~$4$ and the exhaust outlet~$3$ to the room~$1$. The overall picture of the location of the isotherms is the same: all lines have a minimum located within~$3 \leq х \leq 4$~m. As with exhaust ventilation, there is an extension of all isotherms without exception. An increase in the speed of supply of inflow air causes a decrease in the height of the maximum value of the temperature in the room.
+			
+			The trends in the influence of the exhaust ventilation on the nature of the distribution of heat in the room will be considered by the example of the isotherm displacement, in particular~$24\degC$~\FigRef{fig:v}.
+			
+			With an increase in the velocity of the flow of tidal air from~$0.1$~m/s to~$0.2$~m/s, the isotherm of~$24\degC$ dropped from a height~$h = 1.5$~m to a height of~$h = 0.9$~m, that is~$60\%$. With an increase in the velocity~$v$ of the flow of tidal air from~$0.2$~m/s to~$0.35$~m/s it dropped to a height of~$0.55$~m.
+			
+			Exceeding~$\Delta h$ height of isotherm~$24\degC$ across the entire gap $\Delta x = 0 \dots 7$~m is~$0.18$~m for the velocity of the flow of tidal air~$v = 0.1$~m/s; $0.45$~m for~$v = 0.2$~m/s; $0.46$~m for~$v = 0.35$~m/s.
+			\begin{figure}[!hbt]
+				\psone{images/image13.eps}{10cm}
+				\caption{Effect of the velocity of the inflow air on the location of isotherms}
+				\label{fig:v}
+			\end{figure}
+		\section{Summary}
+			It is shown that the involvement of a project-oriented approach makes it possible to organize the implementation of a project effectively and study the parameters of the microclimate of industrial buildings for the technological process of poultry breeding.
+			
+			The geometrically grounded method for processing experimentally taken parameters and the determination of those values that it is difficult or impossible to determine in the conditions of an experiment is suggested and tested on examples.
+			
+			The practical significance of the scientific results obtained in the work is to develop a new methodical approach based on the combination of physical and geometric modeling using a constructive device of applied multidimensional geometry, which can be an instrumental basis for the purposeful study of similar technological processes in the production premises of the agro-industrial complex for various purposes.
+			
+		\begin{thebibliography}{99}
+			\bibitem{bi:Gumen-Martyn.2017}
+				Gumen~O., Spodyniuk~N., Ulewicz~M., Martyn~Ye.\ Research of thermal processes in industrial premises with energy-saving technologies of heating.\ Diagnostyka,~2017; 2~(18):~43--49.
+			\bibitem{bi:Yurkevich-Spodyniuk.2015}
+				Yurkevich~Y., Spodyniuk~N.\ Energy-saving infrared heating systems in industrial premises.\ Budownictwo o zoptymalizowanym potencjale energetycznym,~2015; 2~(16):~140--144.
+			\bibitem{bi:Petras-Kalus.2000}
+				Petras~D., Kalus~D.\ Effect of thermal comfort/discomfort due to infrared heaters installed at workplaces in industrial buildings.\ Indoor and Built Environment,~2000; 9:~148--156.
+			\bibitem{bi:Spodyniuk-Zhelykh.2010}
+				Spodyniuk~N.~A., Zhelykh~V.~M.\ Doslidzhennya efektyvnosti roboty vytyazhnoho zonta konstruktsiyi infrachervonoho nahrivacha.\ Teoriya i praktyka budivnytstva:~Visnyk NU~«Lvivska~politekhnika»,~2010; 664:~235--238.
+			\bibitem{bi:Gumen-Ljaskovska.2017}
+				Gumen~O.~M., Martyn~Yе.~V., Spodyniuk~N.~A., Ljaskovska~S.~Yе.\ Informatsiyni hrafichni zasoby podannya prostoru temperaturnoho polya promyslovykh budivel.\ Visnyk Khersonskoho natsionalnoho tekhnichnoho unyversytetu,~2017; 3~(62):~269--273.
+			\bibitem{bi:Spodyniuk-Zhelykh.2008}
+				Spodyniuk~N.~A., Zhelykh~V.~M.\ Zabezpechennya mikroklimatu v prymishchennyakh ptashnykiv.\ Teoriya i praktyka budivnytstva:~Visnyk NU~«Lvivska~politekhnika»,~2008; 627:~197--200.
+			\bibitem{bi:Kimball.2005}
+				Kimball~B~A.\ Theory and performance of an infrared heater for ecosystem warming.\ Global Change Biology,~2005, 11:~2041--2056.
+			\bibitem{bi:Shcherbovskykh-Shepitchak.2016}
+				Shcherbovskykh~S., Spodyniuk~N., Stefanovych~T., Zhelykh~V., Shepitchak~V.\ Development of a reliability model to analyse the causes of a poultry module failure.\ Eastern-European Journal of Enterprise Technologies,~2016; 4~(3):~4--9.
+			\bibitem{bi:Shepitchak-Zhelykh.2015}
+				Shepitchak~V., Savchenko~O., Spodyniuk~N., Zhelykh~V.\ The study of temperature fields in exposure zone of the rotary infrared heaters.\ Budownictwo o zoptymalizowanym potencjale energetycznym,~2015; 1~(15):~178--181.
+			\bibitem{bi:Zhelykh-Shepitchak.2015}
+				Zhelykh~V., Spodyniuk~N., Dzeryn~O. Shepitchak~V.\ Specificity of Temperature Mode Formation in Production Premises with Infrared Heating System.\ International Journal of Engineering and Innovative Technology,~2015; 4:~8--16.
+			\bibitem{bi:Zhelykh-Shepitchak.2016}
+				Zhelykh~V., Ulewicz~M., Spodyniuk~N., Shapoval~S., Shepitchak~V.\ Analysis of the Processes of Heat Exchange on Infrared Heater Surface.\ Diagnostyka,~2016, 17~(3):~81--85.
+			\bibitem{bi:Shepitchak-Spodyniuk.2016}
+				Shepitchak~V., Zhelykh~V., Spodyniuk~N.\ Study of peculiarities of surface irradiation with parallel arrangement of infrared heater.\ Budownictwo o zoptymalizowanym potencjale energetycznym,~2016; 1~(17):~81--84.
+			\bibitem{bi:Zhelykh-Kapalo.2008}
+				Zhelykh~V., Yurkevich~Y., Spodyniuk~N., Kapalo~P.\ Vplyv pr\'udenia vzduchu na \'u\v cinnost' infra\v cerven\'eho vykurovacieho system.\ Vedecko-odborn\'y \v casopis v oblasti plyn\'arenstva, vykurovania, vodoin\v stal\'aci\'i a klimatiza\v cn\'ych zariaden\'i,~2008; 4:~62--63.
+			\bibitem{bi:Khmel-Ljaskovska.2016}
+				Khmel~P., Martyn~Yе.~V., Ljaskovska~S.~Yе.\ Kompyuterne modelyuvannya protsesiv proektno-oriyentovanoho upravlinnya dualnymy systemamy.\ Visnyk Lvivskoho derzhavnoho universytetu bezpeky zhyttyediyalnosti,~2016; 14:~61--68.
+			\bibitem{bi:Gumen.2001}
+				Gumen~M.~S.\ About the geometrical simulation of the multiparameter systems.\ Applied geometry and graphics,~2001; 70:~117--120.
+			\bibitem{bi:Gumen-Martyn.2016}
+				Gumen~O.~M., Ljaskovska~S.~Yе., Martyn~Yе.~V.\ Bahatovymirna heometriya u prykladnykh zadachakh.\ Visnyk Khersonskoho natsionalnoho tekhnichnoho universytetu,~2016; 3~(58):~497--500.
+			\bibitem{bi:Gumen-Shyyko.2011}
+				Gumen~O.~M., Ljaskovska~S.~Yе., Bodnar~H.~Y., Shyyko~O.~Yа.\ Zastosuvannya proektyvnykh bahatovymirnykh prostoriv shchodo rozvyazuvannya prykladnykh zadach tekhniky.\ Prykladna heometriya ta inzhenerna hrafika,~2011; 50:~116--120.
+			\bibitem{bi:Gumen-Martyn.2012}
+				Gumen~O.~M., Ljaskovska~S.~Yе., Martyn~Yе.~V.\ Vizualne prohramuvannya zadach mekhaniky iz zaluchennyam heometrychnykh zasobiv CAD-system.\ Prykladna heometriya ta inzhenerna hrafika,~2012; 55:~68--75.
+			\bibitem{bi:Gumen.2012}
+				Gumen~O.~M.\ Tekhnolohiya avtomatyzovanoho heometrychnoho modelyuvannya proektyvnykh $n$-prostoriv.\ Prykladna heometriya ta inzhenerna hrafika,~2012; 90:~92--96.
+			\bibitem{bi:Gumen-Martyn.1998}
+				Gumen~M.~S., Martyn~Yе.~V.\ Heometrychna interpretatsiya modeli kompleksnoho  prostoru.\ Suchasni problemy heometrychnoho modelyuvannya,~1998; 1:~139--143.
+			\bibitem{bi:Ivanov.2007}
+				Ivanov~G.~S.\ Metody mnogomernoy geometrii v reshenii prikladnykh zadach.\ Sovremennyye problemy geometricheskogo modelirovaniya,~2007;~33--38.
+		\end{thebibliography}
+	\end{JGGarticle}
+\end{document}

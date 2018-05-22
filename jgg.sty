@@ -1,0 +1,340 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% JGG-style (LaTeX 2.09)
+% Style file for "Journal for Geometry and Graphics"
+% developed on the base of BAG2e.sty by M. Schoernig, Berlin 1994
+% ISGG, 03/97
+%
+% This software is provided "ad-is" and without warranty of any kind,
+% expressed or implied or otherwise, including without limitation,
+% any warranty of merchantability or fitness for a particular purpose.
+%
+% Usage: see bottom
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\filename{jgg.sty}
+\def\fileversion{0.02} \def\filedate{25-MAR-1997}
+\immediate\write16{%
+Style option `\filename' (\fileversion, \filedate)}
+%
+% define global variables
+%
+\def\JGGvol{VOL}
+\def\JGGyear{YEAR}
+\def\JGGno{NO}
+\def\JGGcurrreceived{Received}
+\def\at{{\char '100}}
+%
+%
+% changes in the article style
+% ----------------------------
+% changes sectioning headers (compare article.sty, art12.sty)
+%
+\def\@seccntformat#1{\csname the#1\endcsname.\ }
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+    {-3.5ex plus -1ex minus -.2ex}%
+    {2.0ex plus.2ex}% {2.3ex plus.2ex}%
+    {\reset@font\large\bf}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+    {-2.8explus -1ex minus- .2ex}% 3.25->3.0
+    {1.5ex plus .2ex}%
+    {\reset@font\normalsize\bf}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+    {-2.8explus -1ex minus -.2ex}%
+    {1.5ex plus .2ex}%
+    {\reset@font\normalsize\bf}}
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+    {3.0ex plus .2ex minus .2ex}%
+    {-1em}%
+    {\reset@font\normalsize\bf}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{5}{\parindent}%
+    {3.0ex plus .2ex minus .2ex}%
+    {-1em}%
+    {\reset@font\normalsize\bf}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% changes list (itemize, ...) environment
+%
+\setlength\partopsep{0\p@ plus 0\p@ minus 0\p@}
+\def\@listI{\setlength\leftmargin{\leftmargini}
+    \setlength\parsep {\parskip}%
+    \setlength\topsep {0\p@ plus 0\p@ minus 0\p@}%
+    \setlength\itemsep{\smallskipamount}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% set offsets
+%
+\hoffset-1in
+\voffset-1in
+%
+% set skips to TeX defaults
+%
+\parskip0pt plus 1pt
+\parindent20pt
+%
+% set margins A4: 297mm x 209mm
+%
+\topmargin21mm
+\headheight12pt
+\headsep12pt
+\topskip12pt
+\textheight227mm
+%\footheight12pt
+\footskip24pt
+\oddsidemargin1in
+\evensidemargin17.6mm
+\textwidth166mm
+%
+% set fonts
+%
+\def\JGGfontsmall{\small\rm}
+\def\JGGfontaddress{\small\it}
+\def\JGGfonttitle{\LARGE\bf}
+%
+% define counter
+%
+\newcounter{JGGcurrarticle}
+\newcounter{JGGcurrstartpage}
+\newcounter{JGGcurrstoppage}
+%
+% define temporary stuff
+%
+\newcommand{\invisible}{\rule{0pt}{0pt}}
+\newcommand{\footnotestar}[1]{%
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}%
+\footnote{#1}%
+\renewcommand{\thefootnote}{\arabic{footnote}}}
+%
+% define JGG logo
+% the minipage width 100mm is sufficient
+%
+\newcommand{\JGGlogo}{%
+\noindent%
+\begin{minipage}{100mm}
+	\JGGfontsmall\noindent Journal for Geometry and Graphics\\
+	Volume \JGGvol\ (\JGGyear),
+	No.\ \JGGno, \pageref{JGGcurrstartpage\arabic{JGGcurrarticle}}-%
+\pageref{JGGcurrstoppage\arabic{JGGcurrarticle}}.
+\end{minipage}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define JGG copyright
+%
+\def\hdlogo{\JGGfontsmall 1433-8157/\$ 2.50
+\copyright\ \JGGyear\ Heldermann Verlag, Berlin}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define and set JGG pagestyle
+%
+\def\ps@JGG{\let\@mkboth\@gobbletwo
+	\def\@oddhead{\ifnum\value{page}=\value{JGGcurrstartpage}
+	 \JGGlogo\hfill
+	 \else \hfill{\JGGfontsmall\JGGcurrheader}\hfill\thepage\fi}
+	\def\@oddfoot{\ifnum\value{page}=\value{JGGcurrstartpage}
+	 \hdlogo\hfill\else\hfill\fi}
+	\def\@evenhead{\thepage\hfill{\JGGfontsmall\JGGcurrheader}\hfill}
+	\let\@evenfoot\@empty
+}
+\pagestyle{JGG}
+%
+% define address environment
+%
+\newcommand{\JGGaddress}[1]{\begin{center}\JGGfontaddress #1\end{center}}
+%
+% define JGGarticle environment
+%
+% 1. title
+% 2. header (title abbreviation)
+% 3. autorname(s)
+% 4. authoraddress(es) (with \JGGaddress)
+%
+\newenvironment{JGGarticle}[4]%
+{\stepcounter{JGGcurrarticle}
+\def\JGGcurrtitle{#1}
+\def\JGGcurrheader{#2}
+\def\JGGcurrauthors{#3}
+ {\ifodd\value{page}
+ \else\thispagestyle{empty}\invisible\newpage\fi}
+ \setcounter{JGGcurrstartpage}{\value{page}}
+ \label{JGGcurrstartpage\arabic{JGGcurrarticle}}
+\vspace*{15mm}
+\begin{center}
+\JGGfonttitle\baselineskip23pt\JGGcurrtitle
+\end{center}
+\vspace*{5mm}
+\centerline{\JGGcurrauthors}
+#4
+\vspace*{15mm}
+\setcounter{section}{0}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{footnote}{0}
+\setcounter{figure}{0}
+\setcounter{equation}{0}
+\normalsize\rm
+}%
+{\invisible\vspace*{5mm}\\
+\normalsize\JGGcurrreceived
+\label{JGGcurrstoppage\arabic{JGGcurrarticle}}
+\setcounter{JGGcurrstoppage}{\value{page}}
+\vfill\newpage
+}
+%
+% JGGabstract environment
+%
+\newenvironment{JGGabstract}{\begin{quotation}\noindent{\bf \abstractname.}~}
+	{\end{quotation}}
+%
+%\new@fontshape{cyr}{m}{n}{%
+%   <5>wncyr10 at5pt%
+%   <6>wncyr10 at6pt%
+%   <7>wncyr10 at7pt%
+%   <8>wncyr10 at8pt%
+%   <9>wncyr10 at9pt%
+%   <10>wncyr10%
+%   <11>wncyr10 at10.95pt%
+%   <12>wncyr10 at12pt%
+%   <14>wncyr10 at14.4pt%
+%   <17>wncyr10 at17.28pt%
+%   <20>wncyr10 at20.74pt%
+%   <25>wncyr10 at24.88pt}{}
+%\new@fontshape{cyr}{m}{it}{%
+%   <5>wncyi10 at5pt%
+%   <6>wncyi10 at6pt%
+%   <7>wncyi10 at7pt%
+%   <8>wncyi10 at8pt%
+%   <9>wncyi10 at9pt%
+%   <10>wncyi10%
+%   <11>wncyi10 at10.95pt%
+%   <12>wncyi10 at12pt%
+%   <14>wncyi10 at14.4pt%
+%   <17>wncyi10 at17.28pt%
+%   <20>wncyi10 at20.74pt%
+%   <25>wncyi10 at24.88pt}{}
+%\extra@def{cyr}{}{}
+
+%\def\mcyr{\protect\pmcyr}
+%\def\pmcyr{\RIfM@\expandafter\mcyr@\else
+%                 \expandafter\nonmatherr@\expandafter\mcyr\fi}
+%\newmathalphabet\mcyr@
+%\addtoversion{normal}\mcyr@{cyr}{m}{n}
+%\addtoversion{bold}\mcyr@{cyr}{b}{n}
+%\def\cyr{\family{cyr}\shape{n}\selectfont}
+%\def\cyrit{\family{cyr}\shape{it}\selectfont}
+%\def\mgoth#1{{\frak {#1}}}
+%
+%
+% Postscript
+%
+\def\psone#1#2{\centerline{
+   \includegraphics[width=#2]{#1}
+    }}
+\def\pstwo#1#2#3#4{
+   \centerline{
+    \includegraphics[width=#2]{#1}
+      \qquad \includegraphics[width=#4]{#3}
+   }}%
+\def\psthree#1#2#3#4#5#6{
+   \centerline{
+    \includegraphics[width=#2]{#1}
+      \qquad \includegraphics[width=#4]{#3}
+      \qquad \includegraphics[width=#6]{#5}
+   }}%
+%
+% print message
+\message{JGG-style loaded (ISGG, 03.1997)}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%		       U S A G E			   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\documentstyle[12pt,twoside,jgg,<other>]{article}
+%% where <other> are epsf, amstex or author specific style files
+%\begin{document}
+% \begin{JGGarticle}
+% {<title>}     % the title of your article
+% {<header>}    % this header is displayed at the top of each page
+%	       % This has to be of the form: <name(s) of author(s)>:<title>
+%	       % where title may be abbreviated
+% {name(s) of author(s)}
+% {\JGGadress{  ... first line of address ...\\
+%	       ... second line of address ...\\
+%	       ... if wanted, more lines of address ...\\
+%	       ... if wanted, email address}
+%  % if necessary, repeat the same for other authors,
+%  \JGGadress{  ... first line of address ... etc}
+%  }
+% \begin{JGGabstract}
+% ...<abstract>
+% \end{JGGabstract}
+% ... text ...
+% \section{ ... title ...}
+% ... text of section ...
+%   \subsection{ ... title ...}
+%   ... text of subsection ...
+%   \subsection{ ... title ...}
+%   ... text of subsection ...
+%   ... text of subsection ...
+% \section{ ... title ...}
+% ... text of section ... etc
+% if wanted \section*{ Acknowledgements}
+% ... text ...
+% \begin{thebibliography}{99}
+%    \bibitem{ ... name as label ...}
+%      {\sc ... author(s) ...}:
+%      {\it ... title ...}.
+%      { .....}
+%    \bibitem{ ... }
+%     .... etc
+% \end{thebibliography}
+% \end{JGGarticle}
+%\end{document}
+%
+% When compiling the document with latex you should ignore the following
+% message which will occur one the first page:
+%
+% Overfull \vbox (x.xxxx too high) has occurred while \output is active
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%		     E X A M P L E			 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\documentstyle[12pt,twoside,jgg]{article}
+%\begin{document}
+%\begin{JGGarticle}
+%   {Guidelines for preparing LaTeX manuscripts}
+%   {H.\ Stachel, J.\ Wallner: Guidelines for preparing LaTeX manuscripts}
+%   {Hellmuth Stachel, Johannes Wallner}
+%   {\JGGaddress{Institute for Geometry, Vienna University of Technology\\
+%		Wiedner Hauptstr.\ 8-10/113, A-1040 Wien, Austria\\
+%		email: stachel\at geometrie.tuwien.ac.at}}
+%\begin{JGGabstract}
+%   The aim of this paper is to inform contributors about ...
+%   \\[1mm]{\em Key Words:} text processing, LaTeX, TeX
+%\end{JGGabstract}
+%
+%\section{Introduction}
+%   In order to achieve high printing quality and at the
+%   same time to keep printing costs low, JGG will accept
+%   articles only if they are written in LaTeX.
+%   Additionally, authors should follow the instructions
+%   which can be found below.
+%   Authors who have never been using LaTeX are...
+%\section{Instructions}
+%\subsection*{Instructions for beginners}
+%   This section contains detailed instructions for the
+%   author how to write a LaTeX text.
+%   The expert will find here instructions how to use macros.
+%   For more details see \cite{Lamport 96}.
+%\subsection{Instructions for experts}
+%	...
+%\begin{thebibliography}{99}
+% \bibitem{Lamport 96}
+%   {\sc L.\ Lamport}: {\em LaTex, A Document Preparation System, User's
+%   Guide and Reference Manual}.
+%   2nd ed., Addison-Wesley, Reading Mass.\ 1996.
+% \bibitem{Crapo-Whiteley}
+%   {\sc H.\ Crapo, W.\ Whiteley}: {\em Spaces of Stresses, Projections and
+%   Parallel Drawings for Spherical Polyhedra}.
+%   Beitr.\ Algebra Geom. {\bf 35} (1994), 259-281.
+%\end{thebibliography}
+%\end{JGGarticle}
+%\end{document}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
