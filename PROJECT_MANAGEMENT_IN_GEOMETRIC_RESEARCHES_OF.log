@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.24)  22 MAY 2018 18:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.24)  22 MAY 2018 23:07
 entering extended mode
 **./PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.tex
 (PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.tex
@@ -255,12 +255,12 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 30.
 
 ("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 30.
 ("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -276,14 +276,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 
 [1{C:/Users/ichet/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-]
-Overfull \hbox (372.16304pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 2 \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spod
-yniuk, S. Ljaskovska, Y. Martyn: Project management in geometric researches of 
-microclimate parameters space of industrial premises 
- []
-
-[2]
+] [2]
 Package epstopdf Info: Source file: <images/image2.eps>
 (epstopdf)                    date: 2018-05-20 19:09:57
 (epstopdf)                    size: 519292 bytes
@@ -302,16 +295,6 @@ Package pdftex.def Info: images/image2-eps-converted-to.pdf  used on input line
  56. on input line 56.
 Package pdftex.def Info: Requested size: 284.52756pt x 172.61122pt on input lin
 e 56.
-Missing character: There is no Ñ in font cmr12!
-Missing character: There is no … in font cmr12!
-Missing character: There is no Ñ in font cmr12!
-Missing character: There is no ƒ in font cmr12!
-
-Overfull \hbox (372.16304pt too wide) has occurred while \output is active
- \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spodyniuk, S. Ljaskov
-ska, Y. Martyn: Project management in geometric researches of microclimate para
-meters space of industrial premises \OT1/cmr/m/n/12 3
- []
 
 [3 <./images/image2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/image3.eps>
@@ -322,16 +305,16 @@ Package epstopdf Info: Source file: <images/image3.eps>
 (epstopdf)                    size: 61099 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/image3-eps-converted
 -to.pdf images/image3.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
 <images/image3-eps-converted-to.pdf, id=21, pagebox=cropbox, 209.78375pt x 235.
 88126pt>
 File: images/image3-eps-converted-to.pdf Graphic file (type pdf)
 <use images/image3-eps-converted-to.pdf>
 Package pdftex.def Info: images/image3-eps-converted-to.pdf  used on input line
- 72. on input line 72.
-Package pdftex.def Info: Requested size: 227.62204pt x 255.93932pt on input lin
-e 72.
+ 74. on input line 74.
+Package pdftex.def Info: Requested size: 236.15796pt x 265.53851pt on input lin
+e 74.
 Package epstopdf Info: Source file: <images/image4.eps>
 (epstopdf)                    date: 2018-05-20 19:33:50
 (epstopdf)                    size: 764020 bytes
@@ -340,28 +323,18 @@ Package epstopdf Info: Source file: <images/image4.eps>
 (epstopdf)                    size: 57368 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/image4-eps-converted
 -to.pdf images/image4.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
 <images/image4-eps-converted-to.pdf, id=22, pagebox=cropbox, 187.70125pt x 215.
 80624pt>
 File: images/image4-eps-converted-to.pdf Graphic file (type pdf)
 <use images/image4-eps-converted-to.pdf>
 Package pdftex.def Info: images/image4-eps-converted-to.pdf  used on input line
- 72. on input line 72.
+ 74. on input line 74.
 Package pdftex.def Info: Requested size: 227.62204pt x 261.72237pt on input lin
-e 72.
-
-Underfull \vbox (badness 5847) has occurred while \output is active []
-
-
-Overfull \hbox (372.16304pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 4 \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spod
-yniuk, S. Ljaskovska, Y. Martyn: Project management in geometric researches of 
-microclimate parameters space of industrial premises 
- []
-
-[4 <./images/image3-eps-converted-to.pdf> <./images/image4-eps-converted-to.pdf
->]
+e 74.
+ [4 <./images/image3-eps-converted-to.pdf> <./images/image4-eps-converted-to.pd
+f>]
 Package epstopdf Info: Source file: <images/image5.eps>
 (epstopdf)                    date: 2018-05-20 20:27:13
 (epstopdf)                    size: 677247 bytes
@@ -370,43 +343,62 @@ Package epstopdf Info: Source file: <images/image5.eps>
 (epstopdf)                    size: 26921 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/image5-eps-converted
 -to.pdf images/image5.eps>
-(epstopdf)             \includegraphics on input line 97.
+(epstopdf)             \includegraphics on input line 99.
 Package epstopdf Info: Output file is already uptodate.
 <images/image5-eps-converted-to.pdf, id=33, pagebox=cropbox, 212.795pt x 167.62
 625pt>
 File: images/image5-eps-converted-to.pdf Graphic file (type pdf)
 <use images/image5-eps-converted-to.pdf>
 Package pdftex.def Info: images/image5-eps-converted-to.pdf  used on input line
- 97. on input line 97.
+ 99. on input line 99.
 Package pdftex.def Info: Requested size: 284.52756pt x 224.14479pt on input lin
-e 97.
-Missing character: There is no â in font cmr12!
-Missing character: There is no ˆ in font cmr12!
-Missing character: There is no † in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no ² in font cmr12!
-
-Overfull \hbox (372.16304pt too wide) has occurred while \output is active
- \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spodyniuk, S. Ljaskov
-ska, Y. Martyn: Project management in geometric researches of microclimate para
-meters space of industrial premises \OT1/cmr/m/n/12 5
- []
-
-[5 <./images/image5-eps-converted-to.pdf>]
-Overfull \hbox (2.4031pt too wide) in paragraph at lines 107--108
+e 99.
+Package epstopdf Info: Source file: <images/image6.eps>
+(epstopdf)                    date: 2018-05-22 20:59:12
+(epstopdf)                    size: 8902 bytes
+(epstopdf)             Output file: <images/image6-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-22 21:07:28
+(epstopdf)                    size: 2975 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/image6-eps-converted
+-to.pdf images/image6.eps>
+(epstopdf)             \includegraphics on input line 104.
+Package epstopdf Info: Output file is already uptodate.
+<images/image6-eps-converted-to.pdf, id=34, pagebox=cropbox, 46.1725pt x 4.015p
+t>
+File: images/image6-eps-converted-to.pdf Graphic file (type pdf)
+<use images/image6-eps-converted-to.pdf>
+Package pdftex.def Info: images/image6-eps-converted-to.pdf  used on input line
+ 104. on input line 104.
+Package pdftex.def Info: Requested size: 56.9055pt x 4.94833pt on input line 10
+4.
+Package epstopdf Info: Source file: <images/image7.eps>
+(epstopdf)                    date: 2018-05-22 20:59:11
+(epstopdf)                    size: 10456 bytes
+(epstopdf)             Output file: <images/image7-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-05-22 21:19:25
+(epstopdf)                    size: 3537 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/image7-eps-converted
+-to.pdf images/image7.eps>
+(epstopdf)             \includegraphics on input line 105.
+Package epstopdf Info: Output file is already uptodate.
+<images/image7-eps-converted-to.pdf, id=35, pagebox=cropbox, 47.17625pt x 5.018
+75pt>
+File: images/image7-eps-converted-to.pdf Graphic file (type pdf)
+<use images/image7-eps-converted-to.pdf>
+Package pdftex.def Info: images/image7-eps-converted-to.pdf  used on input line
+ 105. on input line 105.
+Package pdftex.def Info: Requested size: 56.9055pt x 6.05377pt on input line 10
+5.
+ [5 <./images/image5-eps-converted-to.pdf> <./images/image6-eps-converted-to.pd
+f> <./images/image7-eps-converted-to.pdf>]
+Overfull \hbox (1.66702pt too wide) in paragraph at lines 138--139
 []\OT1/cmr/m/n/12 with the work of lo-cal ex-haust ven-ti-la-tion for the same 
-isotherm in-ter-val of $17[][] [] [] 19[][] []$
+isotherm in-ter-val of $0[][][] [] 16\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 8[][][]$
+
  []
 
 
-Overfull \hbox (5.66696pt too wide) in paragraph at lines 128--129
-[]\OT1/cmr/m/n/12 with the work of lo-cal ex-haust ven-ti-la-tion for the same 
-isotherm in-ter-val of $0[][] [] [] 16\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 8[][] [
-]$
- []
-
-
-Overfull \hbox (4.0071pt too wide) in paragraph at lines 133--134
+Overfull \hbox (4.0071pt too wide) in paragraph at lines 143--144
 \OT1/cmr/m/n/12 In the pro-cess of sci-en-tific re-search of the ther-mal field
  us-ing ex-per-i-men-tally ob-tained isotherms
  []
@@ -419,16 +411,16 @@ Package epstopdf Info: Source file: <images/image8.eps>
 (epstopdf)                    size: 18954 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/image8-eps-converted
 -to.pdf images/image8.eps>
-(epstopdf)             \includegraphics on input line 139.
+(epstopdf)             \includegraphics on input line 149.
 Package epstopdf Info: Output file is already uptodate.
-<images/image8-eps-converted-to.pdf, id=41, pagebox=cropbox, 212.795pt x 92.345
+<images/image8-eps-converted-to.pdf, id=47, pagebox=cropbox, 212.795pt x 92.345
 pt>
 File: images/image8-eps-converted-to.pdf Graphic file (type pdf)
 <use images/image8-eps-converted-to.pdf>
 Package pdftex.def Info: images/image8-eps-converted-to.pdf  used on input line
- 139. on input line 139.
+ 149. on input line 149.
 Package pdftex.def Info: Requested size: 284.52756pt x 123.48096pt on input lin
-e 139.
+e 149.
 Package epstopdf Info: Source file: <images/image9.eps>
 (epstopdf)                    date: 2018-05-20 21:42:18
 (epstopdf)                    size: 657537 bytes
@@ -437,18 +429,17 @@ Package epstopdf Info: Source file: <images/image9.eps>
 (epstopdf)                    size: 25217 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/image9-eps-converted
 -to.pdf images/image9.eps>
-(epstopdf)             \includegraphics on input line 145.
+(epstopdf)             \includegraphics on input line 156.
 Package epstopdf Info: Output file is already uptodate.
-<images/image9-eps-converted-to.pdf, id=42, pagebox=cropbox, 212.795pt x 162.60
+<images/image9-eps-converted-to.pdf, id=48, pagebox=cropbox, 212.795pt x 162.60
 75pt>
 File: images/image9-eps-converted-to.pdf Graphic file (type pdf)
 <use images/image9-eps-converted-to.pdf>
 Package pdftex.def Info: images/image9-eps-converted-to.pdf  used on input line
- 145. on input line 145.
+ 156. on input line 156.
 Package pdftex.def Info: Requested size: 284.52756pt x 217.4339pt on input line
- 145.
-Missing character: There is no Ñ in font cmr12!
-Missing character: There is no … in font cmr12!
+ 156.
+[6]
 Package epstopdf Info: Source file: <images/image10.eps>
 (epstopdf)                    date: 2018-05-20 21:42:17
 (epstopdf)                    size: 704600 bytes
@@ -457,57 +448,20 @@ Package epstopdf Info: Source file: <images/image10.eps>
 (epstopdf)                    size: 32827 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/image10-eps-converte
 d-to.pdf images/image10.eps>
-(epstopdf)             \includegraphics on input line 157.
+(epstopdf)             \includegraphics on input line 169.
 Package epstopdf Info: Output file is already uptodate.
-<images/image10-eps-converted-to.pdf, id=43, pagebox=cropbox, 208.78pt x 177.66
+<images/image10-eps-converted-to.pdf, id=53, pagebox=cropbox, 208.78pt x 177.66
 376pt>
 File: images/image10-eps-converted-to.pdf Graphic file (type pdf)
 <use images/image10-eps-converted-to.pdf>
 Package pdftex.def Info: images/image10-eps-converted-to.pdf  used on input lin
-e 157. on input line 157.
+e 169. on input line 169.
 Package pdftex.def Info: Requested size: 284.52756pt x 242.15355pt on input lin
-e 157.
-
-Overfull \hbox (372.16304pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 6 \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spod
-yniuk, S. Ljaskovska, Y. Martyn: Project management in geometric researches of 
-microclimate parameters space of industrial premises 
- []
-
-[6]
-Missing character: There is no Ñ in font cmr12!
-Missing character: There is no … in font cmr12!
-Missing character: There is no Ñ in font cmr12!
-Missing character: There is no … in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no ¢ in font cmr12!
+e 169.
 Missing character: There is no Ð in font cmr12!
 Missing character: There is no ° in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no ° in font cmr12!
-
-Overfull \hbox (372.16304pt too wide) has occurred while \output is active
- \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spodyniuk, S. Ljaskov
-ska, Y. Martyn: Project management in geometric researches of microclimate para
-meters space of industrial premises \OT1/cmr/m/n/12 7
- []
-
-[7 <./images/image8-eps-converted-to.pdf> <./images/image9-eps-converted-to.pdf
->]
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no ž in font cmr12!
-Missing character: There is no Ñ in font cmr12!
-Missing character: There is no … in font cmr12!
+ [7 <./images/image8-eps-converted-to.pdf> <./images/image9-eps-converted-to.pd
+f>]
 Package epstopdf Info: Source file: <images/image11.eps>
 (epstopdf)                    date: 2018-05-20 21:42:16
 (epstopdf)                    size: 659853 bytes
@@ -516,16 +470,22 @@ Package epstopdf Info: Source file: <images/image11.eps>
 (epstopdf)                    size: 25225 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/image11-eps-converte
 d-to.pdf images/image11.eps>
-(epstopdf)             \includegraphics on input line 172.
+(epstopdf)             \includegraphics on input line 184.
 Package epstopdf Info: Output file is already uptodate.
-<images/image11-eps-converted-to.pdf, id=59, pagebox=cropbox, 212.795pt x 163.6
+<images/image11-eps-converted-to.pdf, id=65, pagebox=cropbox, 212.795pt x 163.6
 1125pt>
 File: images/image11-eps-converted-to.pdf Graphic file (type pdf)
 <use images/image11-eps-converted-to.pdf>
 Package pdftex.def Info: images/image11-eps-converted-to.pdf  used on input lin
-e 172. on input line 172.
+e 184. on input line 184.
 Package pdftex.def Info: Requested size: 284.52756pt x 218.77606pt on input lin
-e 172.
+e 184.
+
+Overfull \hbox (1.05435pt too wide) in paragraph at lines 182--188
+\OT1/cmr/m/n/12 The com-plex draw-ing in Fig-ure 5[] gives two pro-jec-tions of
+ the tem-per-a-ture field in $\OML/cmm/m/it/12 Oxht[]$ \OT1/cmr/m/n/12 space.
+ []
+
 Missing character: There is no Ñ in font cmr12!
 Missing character: There is no ƒ in font cmr12!
 Missing character: There is no Ñ in font cmr12!
@@ -538,29 +498,19 @@ Package epstopdf Info: Source file: <images/image12.eps>
 (epstopdf)                    size: 34856 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/image12-eps-converte
 d-to.pdf images/image12.eps>
-(epstopdf)             \includegraphics on input line 179.
+(epstopdf)             \includegraphics on input line 193.
 Package epstopdf Info: Output file is already uptodate.
-<images/image12-eps-converted-to.pdf, id=60, pagebox=cropbox, 575.14874pt x 474
+<images/image12-eps-converted-to.pdf, id=66, pagebox=cropbox, 575.14874pt x 474
 .77374pt>
 File: images/image12-eps-converted-to.pdf Graphic file (type pdf)
 <use images/image12-eps-converted-to.pdf>
 Package pdftex.def Info: images/image12-eps-converted-to.pdf  used on input lin
-e 179. on input line 179.
+e 193. on input line 193.
 Package pdftex.def Info: Requested size: 284.52756pt x 234.8797pt on input line
- 179.
+ 193.
 Missing character: There is no Ñ in font cmr12!
 Missing character: There is no ƒ in font cmr12!
-
-Overfull \hbox (372.16304pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 8 \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spod
-yniuk, S. Ljaskovska, Y. Martyn: Project management in geometric researches of 
-microclimate parameters space of industrial premises 
- []
-
-[8 <./images/image10-eps-converted-to.pdf> <./images/image11-eps-converted-to.p
-df>]
-Missing character: There is no Ñ in font cmr12!
-Missing character: There is no … in font cmr12!
+[8 <./images/image10-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/image13.eps>
 (epstopdf)                    date: 2018-05-20 22:21:46
 (epstopdf)                    size: 890791 bytes
@@ -569,117 +519,82 @@ Package epstopdf Info: Source file: <images/image13.eps>
 (epstopdf)                    size: 27316 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/image13-eps-converte
 d-to.pdf images/image13.eps>
-(epstopdf)             \includegraphics on input line 193.
+(epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
-<images/image13-eps-converted-to.pdf, id=70, pagebox=cropbox, 209.78375pt x 224
+<images/image13-eps-converted-to.pdf, id=73, pagebox=cropbox, 209.78375pt x 224
 .84pt>
 File: images/image13-eps-converted-to.pdf Graphic file (type pdf)
 <use images/image13-eps-converted-to.pdf>
 Package pdftex.def Info: images/image13-eps-converted-to.pdf  used on input lin
-e 193. on input line 193.
+e 208. on input line 208.
 Package pdftex.def Info: Requested size: 284.52756pt x 304.9481pt on input line
- 193.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (372.16304pt too wide) has occurred while \output is active
- \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spodyniuk, S. Ljaskov
-ska, Y. Martyn: Project management in geometric researches of microclimate para
-meters space of industrial premises \OT1/cmr/m/n/12 9
- []
-
-[9 <./images/image12-eps-converted-to.pdf>]
-Underfull \hbox (badness 1917) in paragraph at lines 208--209
-[]\OT1/cmr/m/n/12 Yurkevich Y., Spo-dyniuk N. Energy-saving in-frared heat-ing 
-sys-tems in in-dus-
- []
-
-
-Overfull \hbox (378.03798pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 10 \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spo
-dyniuk, S. Ljaskovska, Y. Martyn: Project management in geometric researches of
- microclimate parameters space of industrial premises 
- []
-
-[10 <./images/image13-eps-converted-to.pdf>]
+ 208.
+ [9 <./images/image11-eps-converted-to.pdf> <./images/image12-eps-converted-to.
+pdf>] [10 <./images/image13-eps-converted-to.pdf>]
 Missing character: There is no Â in font cmr12!
 Missing character: There is no « in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no » in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no µ in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no µ in font cmr12!
+Missing character: There is no Ð in font cmcsc10!
+Missing character: There is no µ in font cmcsc10!
+Missing character: There is no Ð in font cmcsc10!
+Missing character: There is no µ in font cmcsc10!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no « in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no » in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no µ in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no µ in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no µ in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no µ in font cmr12!
 
-Overfull \hbox (378.03798pt too wide) has occurred while \output is active
- \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spodyniuk, S. Ljaskov
-ska, Y. Martyn: Project management in geometric researches of microclimate para
-meters space of industrial premises \OT1/cmr/m/n/12 11
+Underfull \hbox (badness 4303) in paragraph at lines 241--244
+\OT1/cmr/m/it/12 nyakh ptash-nykiv\OT1/cmr/m/n/12 . Teoriya i prak-tyka bu-di-v
+nyt-stva: Vis-nyk NU Lvivska po-
  []
 
+Missing character: There is no Ð in font cmcsc10!
+Missing character: There is no µ in font cmcsc10!
+Missing character: There is no Ð in font cmcsc10!
+Missing character: There is no µ in font cmcsc10!
+Missing character: There is no Ð in font cmcsc10!
+Missing character: There is no µ in font cmcsc10!
+Missing character: There is no Ð in font cmcsc10!
+Missing character: There is no µ in font cmcsc10!
 [11]
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no µ in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no ° in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no µ in font cmr12!
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no µ in font cmr12!
-
-Underfull \hbox (badness 3746) in paragraph at lines 240--241
-[]\OT1/cmr/m/n/12 Gumen O. M., Ljaskovska S. Y., Mar-tyn Y. V. Vizualne prohra-
-mu-van-nya
- []
-
-Missing character: There is no Ð in font cmr12!
-Missing character: There is no µ in font cmr12!
-
-Overfull \hbox (378.03798pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 12 \OT1/cmr/m/n/10.95 O. Gumen, V. Zhelykh, S. Shapoval, N. Spo
-dyniuk, S. Ljaskovska, Y. Martyn: Project management in geometric researches of
- microclimate parameters space of industrial premises 
- []
-
-[12] (PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.aux) ) 
+Missing character: There is no Ð in font cmcsc10!
+Missing character: There is no µ in font cmcsc10!
+Missing character: There is no Ð in font cmcsc10!
+Missing character: There is no ° in font cmcsc10!
+Missing character: There is no Ð in font cmcsc10!
+Missing character: There is no µ in font cmcsc10!
+Missing character: There is no Ð in font cmcsc10!
+Missing character: There is no µ in font cmcsc10!
+Missing character: There is no Ð in font cmcsc10!
+Missing character: There is no µ in font cmcsc10!
+ [12] (PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.aux) ) 
 Here is how much of TeX's memory you used:
- 2836 strings out of 493314
- 40231 string characters out of 3129774
- 99210 words of memory out of 3000000
- 6322 multiletter control sequences out of 15000+200000
- 11053 words of font info for 41 fonts, out of 3000000 for 9000
+ 2848 strings out of 493314
+ 40631 string characters out of 3129774
+ 99209 words of memory out of 3000000
+ 6331 multiletter control sequences out of 15000+200000
+ 11354 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,25p,1349b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/ichet/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/User
-s/ichet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12
-.pfb><C:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmmi8.pfb><C:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><C:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ichet/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ichet/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/iche
-t/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C
-:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmti10.pfb><C:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmti12.pfb>
+ 41i,12n,25p,1349b,382s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/ichet/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Use
+rs/ichet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc
+10.pfb><C:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi12.pfb><C:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ichet/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ichet/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ichet/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ic
+het/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb><C:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb><C:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.pdf (12 pages, 
-471908 bytes).
+500610 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
+ 131 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
