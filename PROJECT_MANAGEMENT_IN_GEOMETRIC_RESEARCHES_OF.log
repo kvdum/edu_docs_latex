@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.24)  22 MAY 2018 23:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.24)  23 MAY 2018 00:05
 entering extended mode
 **./PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.tex
 (PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.tex
@@ -164,18 +164,18 @@ Package: cite 2015/02/27  v 5.5
 ) (PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.aux)
 \openout1 = `PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 ("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
@@ -255,24 +255,24 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 30.
+LaTeX Font Info:    Try loading font information for U+msa on input line 32.
 
 ("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 30.
+LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 ("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Overfull \vbox (2.97083pt too high) has occurred while \output is active []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
 
 ("C:\Users\ichet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
 
 [1{C:/Users/ichet/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
@@ -285,16 +285,16 @@ Package epstopdf Info: Source file: <images/image2.eps>
 (epstopdf)                    size: 21212 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/image2-eps-converted
 -to.pdf images/image2.eps>
-(epstopdf)             \includegraphics on input line 56.
+(epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 <images/image2-eps-converted-to.pdf, id=14, pagebox=cropbox, 211.79124pt x 128.
 48pt>
 File: images/image2-eps-converted-to.pdf Graphic file (type pdf)
 <use images/image2-eps-converted-to.pdf>
 Package pdftex.def Info: images/image2-eps-converted-to.pdf  used on input line
- 56. on input line 56.
+ 58. on input line 58.
 Package pdftex.def Info: Requested size: 284.52756pt x 172.61122pt on input lin
-e 56.
+e 58.
 
 [3 <./images/image2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/image3.eps>
@@ -333,6 +333,9 @@ Package pdftex.def Info: images/image4-eps-converted-to.pdf  used on input line
  74. on input line 74.
 Package pdftex.def Info: Requested size: 227.62204pt x 261.72237pt on input lin
 e 74.
+
+Underfull \vbox (badness 3219) has occurred while \output is active []
+
  [4 <./images/image3-eps-converted-to.pdf> <./images/image4-eps-converted-to.pd
 f>]
 Package epstopdf Info: Source file: <images/image5.eps>
@@ -530,7 +533,13 @@ e 208. on input line 208.
 Package pdftex.def Info: Requested size: 284.52756pt x 304.9481pt on input line
  208.
  [9 <./images/image11-eps-converted-to.pdf> <./images/image12-eps-converted-to.
-pdf>] [10 <./images/image13-eps-converted-to.pdf>]
+pdf>]
+Underfull \hbox (badness 1931) in paragraph at lines 221--224
+\OT1/cmr/m/it/12 mal pro-cesses in in-dus-trial premises with energy-saving tec
+h-nolo-gies of heat-ing\OT1/cmr/m/n/12 .
+ []
+
+[10 <./images/image13-eps-converted-to.pdf>]
 Missing character: There is no Â in font cmr12!
 Missing character: There is no « in font cmr12!
 Missing character: There is no Â in font cmr12!
@@ -544,9 +553,21 @@ Missing character: There is no « in font cmr12!
 Missing character: There is no Â in font cmr12!
 Missing character: There is no » in font cmr12!
 
-Underfull \hbox (badness 4303) in paragraph at lines 241--244
-\OT1/cmr/m/it/12 nyakh ptash-nykiv\OT1/cmr/m/n/12 . Teoriya i prak-tyka bu-di-v
-nyt-stva: Vis-nyk NU Lvivska po-
+Underfull \hbox (badness 10000) in paragraph at lines 241--244
+[]\OT1/cmr/m/sc/12 Spodyniuk N. A., Zhe-lykh V. M.\OT1/cmr/m/n/12 : \OT1/cmr/m/
+it/12 Zabezpechen-nya mikrokli-matu v
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--244
+\OT1/cmr/m/it/12 prymishchen-nyakh ptash-nykiv\OT1/cmr/m/n/12 . Teoriya i prak-
+tyka bu-di-vnyt-stva: Vis-nyk
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 249--252
+[]\OT1/cmr/m/sc/12 Shcherbovskykh S., Spo-dyniuk N., Ste-fanovych T., Zhe-lykh 
+V.,
  []
 
 Missing character: There is no Ð in font cmcsc10!
@@ -570,12 +591,12 @@ Missing character: There is no Ð in font cmcsc10!
 Missing character: There is no µ in font cmcsc10!
  [12] (PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.aux) ) 
 Here is how much of TeX's memory you used:
- 2848 strings out of 493314
- 40631 string characters out of 3129774
+ 2851 strings out of 493314
+ 40667 string characters out of 3129774
  99209 words of memory out of 3000000
  6331 multiletter control sequences out of 15000+200000
  11354 words of font info for 42 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 1144 hyphenation exceptions out of 8191
  41i,12n,25p,1349b,382s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/ichet/AppD
 ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Use
@@ -592,7 +613,7 @@ cm/cmsy8.pfb><C:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb><C:/Users/ichet/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on PROJECT_MANAGEMENT_IN_GEOMETRIC_RESEARCHES_OF.pdf (12 pages, 
-500610 bytes).
+500466 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
